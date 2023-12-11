@@ -22,10 +22,11 @@ const Banner = () => {
           <Link>
             <FaFacebook></FaFacebook>
           </Link>
-          <Link>
+          <Link to='https://www.linkedin.com/in/humayra-anjum-bushra-46b39b2a4/'>
             <FaLinkedin></FaLinkedin>
           </Link>
         </div>
+        
         <div className="py-6 " >
           <Link>
             <button className="btn rounded-md  border-0 bg-green-700 text-white mr-4 hover:bg-green-500">
