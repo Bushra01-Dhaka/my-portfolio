@@ -4,7 +4,7 @@ import { FaDownload, FaFacebook, FaLinkedin, FaPhone, FaTwitter } from "react-ic
 const Banner = () => {
   return (
     <div className="flex justify-center items-center lg:h-[100vh]">
-      <div className="py-10">
+      <div className="py-10 px-4 text-center md:text-justify">
         <p className="text-2xl text-white">Hello, {`I'm Bushra.`}</p>
         <h1 className="text-6xl font-bold text-green-700 py-4">
           Web Developer|
