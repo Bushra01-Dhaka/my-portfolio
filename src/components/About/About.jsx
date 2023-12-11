@@ -1,12 +1,11 @@
 import img from "../../assets/profile-pic.jpg"
-import bg from "../../assets/about-bg.jpeg"
-import { Link } from "react-router-dom";
+
 
 const About = () => {
     return (
         <div className="py-8">
               {/* <h1 className="text-center text-5xl text-green-700 font-bold pb-4">About Me</h1> */}
-        <div className="hero min-h-screen text-white">
+        <div className="hero text-white">
           <div className="hero-content flex-col lg:flex-row">
             <div className="lg:w-1/2 relative">
               <img src={img} className="w-3/4 rounded-lg shadow-2xl border-8 border-green-700" />
