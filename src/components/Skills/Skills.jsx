@@ -2,17 +2,18 @@ import html from "../../assets/icons/html.png"
 import css from "../../assets/icons/css.png"
 import js from "../../assets/icons/js.png"
 import re from "../../assets/icons/react.png"
-import node from "../../assets/icons/node.png"
+import mongo from "../../assets/icons/mongo.png"
+import express from "../../assets/icons/express.png"
 
 const Skills = () => {
     return (
-        <div className="py-10">
+        <div className="py-10 bg-black bg-opacity-40">
             <h1 className="text-center text-5xl text-green-700 font-bold mb-10">My Skills</h1>
 
             <div className="flex flex-col lg:flex-row justify-evenly items-center gap-6 py-8">
                  <div>
                     <div className=" py-4">
-                    <h2 className="text-2xl font-bold text-center text-white">Technical Skills</h2>
+                    <h2 className="text-2xl font-bold text-center text-white">Development Skills</h2>
                     <hr />
                     </div>
 
@@ -52,8 +53,16 @@ const Skills = () => {
                     <div className="w-full">
                         <img 
                         className="h-[50px] w-[50px]"
-                        src={node} alt="" />
-                        <h2 className="text-md text-bold text-white">Node Js</h2>
+                        src={mongo} alt="" />
+                        <h2 className="text-md text-bold text-white">Mongodb</h2>
+                        <progress className="progress progress-success  w-56" value="65" max="100"></progress>
+                    </div>
+
+                    <div className="w-full">
+                        <img 
+                        className="h-[50px] w-[50px]"
+                        src={express} alt="" />
+                        <h2 className="text-md text-bold text-white">Express Js</h2>
                         <progress className="progress progress-success  w-56" value="50" max="100"></progress>
                     </div>
 
@@ -88,7 +97,7 @@ const Skills = () => {
 
                         <div className="">
                         <div className="radial-progress text-success" style={{"--value":80, "--size": "8rem"}} role="progressbar">80%</div>
-                        <p className="text-white text-center py-4">Teamwork</p>
+                        <p className="text-white text-center py-4">Adaptability</p>
                         </div>
 
 
