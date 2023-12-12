@@ -37,8 +37,8 @@ const Contact = () => {
             <Link>
               <FaTwitter></FaTwitter>
             </Link>
-            <Link>
-              <FaFacebook></FaFacebook>
+            <Link to='https://www.facebook.com/profile.php?id=100078654156457&mibextid=ZbWKwL'>
+            <FaFacebook></FaFacebook>
             </Link>
             <Link to="https://www.linkedin.com/in/humayra-anjum-bushra-46b39b2a4/">
               <FaLinkedin></FaLinkedin>

@@ -35,10 +35,15 @@ const Projects = () => {
                 </ul>
             </div>
 
+            <div className="flex gap-4">
             <Link to='https://fithub-d6165.web.app/'>
-            <button className="btn rounded-md  border-0 bg-green-700 text-white hover:bg-green-500 my-6"><FaArrowUp></FaArrowUp> Visit Website
-            </button>
+            <button className="btn rounded-md  border-0 bg-green-700 text-white hover:bg-green-500 my-6"><FaArrowUp></FaArrowUp>    Visit Website</button>
           </Link>
+
+
+            </div>
+
+
           </div>
       </div>
 

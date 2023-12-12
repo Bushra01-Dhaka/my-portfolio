@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaDownload, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 
 const Banner = () => {
@@ -40,8 +40,8 @@ const Banner = () => {
         </p>
 
         <div className="mt-10 text-3xl flex justify-center gap-6 text-green-700">
-          <Link>
-            <FaTwitter></FaTwitter>
+          <Link to='https://www.facebook.com/profile.php?id=100078654156457&mibextid=ZbWKwL'>
+            <FaFacebook></FaFacebook>
           </Link>
           <Link to='https://github.com/Bushra01-Dhaka'>
             <FaGithub></FaGithub>
